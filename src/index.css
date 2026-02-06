@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0f111a;
+  --color-foreground: #e2e8f0;
+  --color-card: #161925;
+  --color-primary: #8b5cf6; /* Violet 500 */
+  --color-primary-hover: #7c3aed; /* Violet 600 */
+  --color-secondary: #4f46e5; /* Indigo 600 */
+}
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+}
+
